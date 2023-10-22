@@ -7,7 +7,8 @@ export function Header() {
   return (
     <header className='navbar flex justify-between p-4 pt-0'>
       <LinkComponent href='/'>
-        <h1 className='text-lg font-bold'>{SITE_NAME}</h1>
+        {/* <h1 className='text-lg font-bold'>{SITE_NAME}</h1> */}
+        <img src="/logo.png" className='w-1/4' />
       </LinkComponent>
 
       <Connect />

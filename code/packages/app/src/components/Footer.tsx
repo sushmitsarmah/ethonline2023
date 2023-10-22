@@ -1,14 +1,14 @@
 import React from 'react'
 import { SITE_DESCRIPTION, SOCIAL_GITHUB, SOCIAL_TWITTER } from '@/utils/site'
 import { FaGithub, FaTwitter } from 'react-icons/fa6'
-import { NetworkStatus } from './NetworkStatus'
+// import { NetworkStatus } from './NetworkStatus'
 import { LinkComponent } from './LinkComponent'
 
 export function Footer() {
   return (
     <>
       <div className='place-self-end'>
-        <NetworkStatus />
+        {/* <NetworkStatus /> */}
       </div>
 
       <footer className='sticky top-[100vh] footer flex justify-between items-center bg-neutral text-neutral-content p-4'>

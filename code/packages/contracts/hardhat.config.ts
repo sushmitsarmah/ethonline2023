@@ -57,6 +57,10 @@ const config: HardhatUserConfig = {
       url: "https://sepolia-rpc.scroll.io/",
       accounts: [deployerKey as string],
     },
+    mantleTestnet: {
+      url: "https://rpc.testnet.mantle.xyz",
+      accounts: [deployerKey as string],
+    },
     mumbai: {
       chainId: 80001,
       url: 'https://rpc-mumbai.maticvigil.com/',
